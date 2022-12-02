@@ -1,0 +1,283 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#121212;
+  color:white;
+}
+
+@font-face {
+  font-family: "Font";
+  src: url("chess.css/src/fonts/Poppins-Bold[1].ttf");
+}
+
+.ss{
+  background-color:white;
+  width:50px;
+  height:50px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+.ms{
+  background-color:white;
+  width:100px;
+  height:100px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+.bs{
+  background-color:white;
+  width:150px;
+  height:150px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+.sr{
+  background-color:white;
+  width:50px;
+  height:25px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+.mr{
+  background-color:white;
+  width:100px;
+  height:50px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+.br{
+  background-color:white;
+  width:150px;
+  height:75px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+h1{
+  font-family:"Font";
+  font-size:75px;
+  text-shadow:4px 4px #00bbf9;
+}
+
+h1:hover{
+  font-family:"Font";
+  font-size:75px;
+  color:#00bbf9;
+  text-shadow:4px 4px white;
+  padding: 1px 2px;
+}
+
+h2{
+  font-family:"Font";
+  font-size:60px;
+  text-shadow:4px 4px #00bbf9;
+}
+
+h2:hover{
+  font-family:"Font";
+  font-size:60px;
+  color:#00bbf9;
+  text-shadow:4px 4px white;
+}
+
+h3{
+  font-family:"Font";
+  font-size:50px;
+  text-shadow:4px 4px #00bbf9;
+}
+
+h3:hover{
+  font-family:"Font";
+  font-size:50px;
+  color:#00bbf9;
+  text-shadow:4px 4px white;
+}
+
+h4{
+  font-family:"Font";
+  font-size:40px;
+  text-shadow:2.9px 2.9px #00bbf9;
+}
+
+h4:hover{
+  font-family:"Font";
+  font-size:40px;
+  color:#00bbf9;
+  text-shadow:2.9px 2.9px white;
+}
+
+h5{
+  font-family:"Font";
+  font-size:30px;
+  text-shadow:3px 2.5px #00bbf9;
+}
+
+h5:hover{
+  font-family:"Font";
+  font-size:30px;
+  color:#00bbf9;
+  text-shadow:2px 2px white;
+}
+
+h6{
+  font-family:"Font";
+  font-size:20px;
+  text-shadow:2.5px 3px #00bbf9;
+}
+
+h6:hover{
+  font-family:"Font";
+  font-size:20px;
+  color:#00bbf9;
+  text-shadow:3px 3px white;
+}
+
+p{
+  font-family:"Font";
+  font-size:18px;
+  text-shadow:2px 2px #00bbf9;
+}
+
+a{
+  font-family:"Font";
+  color:white;
+  font-size:40px;
+  text-decoration:none;
+  cursor:help;
+}
+
+address{
+  font-family:"Font";
+  font-size:18px;
+  text-shadow:2px 2px #00bbf9;
+}
+
+summary{
+  font-family:"Font";
+  font-size:20px;
+  text-shadow:2px 2px #c400fa;
+}
+
+details{
+  font-family:"Font";
+  font-size:20px;
+  text-shadow:2px 2px #c400fa;
+}
+
+input[type = "text"]{
+  width:400px;
+  height:50px;
+  font-family:"Font";
+  font-size:25px;
+  box-shadow:4px 4px #00fa79;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "text"]:hover{
+  width:400px;
+  height:50px;
+  font-family:"Font";
+  font-size:25px;
+  background-color:#00fa79;
+  box-shadow:4px 4px white;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "text"]:disabled{
+  width:400px;
+  height:50px;
+  font-family:"Font";
+  color:white;
+  font-size:23px;
+  background-color:#00fa79;
+  box-shadow:4px 4px white;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "checkbox"]{
+  width:25px;
+  height:25px;
+  box-shadow:2px 2px #fa006c;
+  padding: 3px 6px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "checkbox"]:hover{
+  width:25px;
+  height:25px;
+  box-shadow:2px 2px #fa006c;
+  padding: 3px 6px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "checkbox"]:disabled{
+  width:25px;
+  height:25px;
+  box-shadow:2px 2px #fa006c;
+  padding: 3px 6px;
+  border-radius:5px;
+  border-color:#121212;
+  cursor:not-allowed;
+}
+
+input[type = "range"]{
+  width:150px;
+  height:75px;
+  padding: 3px 6px;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+input[type = "range"]:disabled{
+  width:150px;
+  height:75px;
+  padding: 3px 6px;
+  border-radius:5px;
+  border-color:#121212;
+  cursor:not-allowed;
+}
+
+::placeholder{
+  font-family:"Font";
+  font-size:25px;
+  color:#787878;
+}
+
+button{
+  width:300px;
+  height:60px;
+  font-family:"Font";
+  font-size:25px;
+  box-shadow:4px 4px #00fa79;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+button:hover{
+  font-family:"Font";
+  font-size:25px;
+  background-color:#00fa79;
+  box-shadow:4px 4px white;
+  border-radius:5px;
+  border-color:#121212;
+}
+
+button:disabled{
+  font-family:"Font";
+  font-size:25px;
+  background-color:#00fa79;
+  box-shadow:4px 4px white;
+  border-radius:5px;
+  border-color:#121212;
+  cursor:not-allowed;
+}
